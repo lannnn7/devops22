@@ -14,6 +14,11 @@ jobs:
 
       - name: List the files
         run: ls
+      - 
+
 
       - name: check the home page has a heading
         run: grep "<h1>" index.html
+
+      - name: check the home page has a heading
+        run: grep "<h3>" index.html
